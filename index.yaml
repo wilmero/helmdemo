@@ -3,6 +3,22 @@ entries:
   dev-env:
   - apiVersion: v2
     appVersion: "1.0"
+    created: "2023-06-10T16:54:28.247890385Z"
+    dependencies:
+    - name: common
+      repository: file://../../common
+      version: 1.0.8
+    - name: megaprocesoms
+      repository: file://../../components/megaprocesoms
+      version: 1.0.8
+    description: A Helm chart for SUNAT
+    digest: 6532a1f371ceb4d9a68b4a4f47d8c11f50b35eead62687d6ad9152333ecb424f
+    name: dev-env
+    urls:
+    - https://github.com/wilmero/helmdemo/releases/download/dev-env-1.0.8/dev-env-1.0.8.tgz
+    version: 1.0.8
+  - apiVersion: v2
+    appVersion: "1.0"
     created: "2023-06-10T16:46:20.160582722Z"
     dependencies:
     - name: common
@@ -33,4 +49,4 @@ entries:
     urls:
     - https://github.com/wilmero/helmdemo/releases/download/dev-env-1.0.6/dev-env-1.0.6.tgz
     version: 1.0.6
-generated: "2023-06-10T16:46:20.160611994Z"
+generated: "2023-06-10T16:54:28.247907247Z"
